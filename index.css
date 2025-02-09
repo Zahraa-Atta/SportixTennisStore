@@ -19,7 +19,7 @@ body {
     position: relative;
     width: 100%;
     height: 800px;
-    background: url('./backgrond-img.jpg') no-repeat center center/cover;
+    background: url('./backgrond-img.jpg   ') no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +27,7 @@ body {
     color: white;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    overflow: hidden;
+    overflow: hiddenك
 }
 
 
@@ -471,15 +471,15 @@ h1 {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     position: relative;
-    width: 60%;
-    height: 600px;
+    width: 100%;
+    height: 800px;
     position: relative;
-   
+    width: 100%;
+    height: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-  
     color: white;
     margin-top: 110px;
     overflow: hidden;
@@ -530,42 +530,58 @@ h1 {
 
 footer {
     position: relative;
-    width: 1436px;
-    height: 390px;
-    background: #FFFFFF;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 70px;
+    width: 97%;
+    background: #fff;
+    padding: 110px 0;
     border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
 }
 
-footer .muneFooter {
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1800px;
+    margin: 0 auto;
+
+}
+
+.footer-column {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 40px;
-    padding-right: 30px;
+    margin-top: -70px;
 
 }
 
-footer .muneFooter a {
-    color: #1a1a1a;
-    font-weight: bold;
+.footer-column h3 {
     font-size: 20px;
+    color: #8B8B8B;
+    font-weight: bold;
 }
 
-footer .muneFooter .hover {
+.footer-column a {
     text-decoration: none;
-    color: #8B8B8B;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .footer-bottom {
+
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+    position: relative;
+    top: 50px;
+}
+
+.footer-bottom a {
+    text-decoration: none;
     text-align: center;
-      
-    padding: 10px;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: bold;
     color: gray;
-    background-color: white;
-    border-top: 2px solid #000;
-    margin-top: 340px
+    position: relative;
+    top: 20px;
 }
